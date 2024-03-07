@@ -61,7 +61,7 @@ from zoedepth.utils.misc import save_raw_16bit
 fpath = "/home/yimeng/ZoeDepth/output.png"
 save_raw_16bit(depth, fpath)
 
-# Colorize output
+# Colorize outputs
 from zoedepth.utils.misc import colorize
 
 colored = colorize(depth)
